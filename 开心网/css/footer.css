@@ -1,0 +1,15 @@
+footer {
+    width: 100% ;
+    padding-bottom: 20px;
+}
+.ft ul li {
+    float: left;
+    margin: 0px 10px;
+}
+.ft ul li a:hover {
+    text-decoration: underline;
+}
+.ft p {
+    color: gray;
+    float: right;
+}

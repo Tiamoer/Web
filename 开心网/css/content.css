@@ -1,0 +1,201 @@
+article {
+    margin: 10px 0px;
+    width: 75%;
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.gameList {
+    margin-top: 15px;
+    padding: 10px;
+}
+.left-list {
+    width: 20%;
+    float: left;
+}
+.left-list ul {
+    width: 100%;
+    margin-left: 15px;
+}
+.left-list ul li {
+    padding: 7px 0px;
+    vertical-align: middle;
+    /* background: linear-gradient(to bottom,#fff,#7a7a7a); */
+}
+.right-gg {
+    float: right;
+}
+.right-gg>img {
+    border-radius: 10px;
+}
+#rightA {
+    float: right;
+    margin-right: 20px;
+}
+.right-gg ul {
+    position: absolute;
+    top: 250px;
+    right: 50px;
+}
+.right-gg ul li {
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: darkgray;
+    display: inline-block;
+}
+.right-gg ul li:hover {
+    background-color: firebrick;
+}
+.all-game-top {
+    border-bottom: 1px solid silver;
+}
+.all-game,.all-game-top {
+    width: 100%;
+}
+.all-game-top ul li {
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.all-game-top ul {
+    background: linear-gradient(to bottom,#fff,rgb(138, 212, 235))
+}
+.ag-content {
+    text-align: center;
+    position: relative;
+}
+.ag-box {
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+    overflow: hidden;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+.ag-box img {
+    margin: 20px 10px;
+    display: block;
+    float: left; 
+}
+/* 图片动画 */
+.ag-box img:hover,
+.rpg-list img:hover {
+    transform: translateX(-10px);
+    transition: transform 0.8s;
+}
+
+.ag-box-right {
+    margin-top: 20px;
+}
+.ag-box-right button,
+.rpg-list button {
+    outline: none;
+    padding: 5px 7px;
+    margin-top: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+    background: none;
+}
+.ag-box-right p {
+    line-height: 27px;
+}
+.ag-box-right button:nth-of-type(2),
+.rpg-list button:nth-of-type(2)
+{
+    background: linear-gradient(to bottom,#2d61f0,rgb(19, 152, 230));
+    color: #fff;
+}
+
+/* 角色扮演CSS */
+.rpg {
+    text-align: center;
+}
+.rpg #title {
+    text-align: left;
+    font-weight: bold;
+    color: brown;
+    background: linear-gradient(to bottom,#fff,rgb(138, 212, 235));
+    line-height: 30px;
+    height: 30px;
+    padding: 0 10px;
+    border-bottom: 1px solid darkgrey;
+}
+.rpg-list {
+    text-align: center;
+    display: inline-block;
+    margin: 20px 40px;
+}
+
+/* 右边栏 */
+.right-navi {
+    box-sizing: border-box;
+    width: 23%;
+    float: right;
+    margin-top: 25px;
+}
+.login-box {
+    text-align: center;
+    padding: 10px;
+}
+.login-box h3 {
+    text-align: left;
+    line-height: 40px;
+    height: 40px;
+    color: darkgrey;
+    margin-bottom: 10px;
+}
+.login-box input {
+    margin: 6px 0px;
+}
+.login-box input[type="submit"] {
+    width: 63px;
+    height: 24px;
+    background: url(../img/btnLogin.jpg) no-repeat;
+    border: none;
+    outline: none;
+}
+.login-box a {
+    margin: 5px 15px;
+    color: dodgerblue;
+}
+/* 新闻公告 */
+.video p,
+.news p {
+    text-align: left;
+    font-weight: bold;
+    color: brown;
+    /* background: linear-gradient(to bottom,#fff,rgb(138, 212, 235)); */
+    line-height: 30px;
+    height: 30px;
+    padding: 0 10px;
+    border-bottom: 1px solid darkgrey;
+}
+.news ul li {
+    list-style-image: url(../img/rightTwo.png);
+    margin: 7px 33px;
+    border-bottom: 1px dashed darkgray;
+}
+.news ul li:hover {
+    transform: translateX(5px) scale(1.1);
+    transition: transform 0.5s;
+}
+.video .ag-box {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px dashed darkgray;
+    width: 90%;
+}
+.video .ag-box img {
+    margin: 0;
+    margin-right: 5px;
+}

@@ -1,0 +1,40 @@
+header {
+    height: 50px;
+    background: linear-gradient(to top,rgb(240, 67, 153),rgb(248, 16, 132));
+    border-radius: 10px;
+}
+.left-nav {
+    position: relative;
+    float: left;
+}
+.left-nav a {
+    margin-left: 10px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    display: inline-block;
+    background-color: white;
+    color: rgb(240, 67, 153);
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px 10px 0px 0px;
+}
+.right-nav {
+    padding: 0px 20px;
+}
+.right-nav ul li {
+    float: right;
+    height: 50px;
+    margin: 0 5px;
+}
+.right-nav ul li a,
+.right-nav ul li p
+{
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+.right-nav ul li a:hover {
+    text-decoration: underline;
+}
