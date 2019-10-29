@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>浮动</title>
+    <style>
+        div {
+            margin: 10px;
+            padding: 8px;
+        }
+        .father {
+            border: 1px #F60 solid;
+        }
+        /* 结构伪类选择器 解决父级塌陷 */
+        .father:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .layout1 {
+            border: 1px #EE0 dashed;
+            float: left;
+        }
+        .layout2 {
+            border: 1px #487 dashed;
+            float: left;
+            /* clear: right; */
+        }
+        .layout3 {
+            border: 1px #660 dashed;
+            float: left;
+            /* clear: both; */
+        }
+        .layout4 {
+            border: 1px #999 dashed;
+            float: left;
+        }
+        .clear {
+            clear: both;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="layout1">
+            <p>浮动的盒子可以向左浮动，也可以向右浮动<br>，直到它的外边缘碰到包含框或另一个浮动盒子为止。本网页中共有三个图片<br>，分别代表日用品图片、图书图片和鞋子图片。这里使用这三个图片<br>和本段文字来演示讲解浮动在网页中的应用，根据需要图片所在的div分别向左浮动、向右浮动，或者不浮动。</p>
+        </div>
+        <div class="layout2">
+            <img src="./img/浮动/246d733647b68e9dc054c841eb6a3aa.jpg" alt="">
+        </div>
+        <div class="layout3">
+            <img src="./img/浮动/66dc944c7ecc1cb29173ebebd4aab4f.jpg" alt="">
+        </div>
+        <div class="layout4">
+            <img src="./img/浮动/9dbf6140039333cdbd5354871b8d0d1.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

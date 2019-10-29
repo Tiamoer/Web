@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+.Logo-text {
+    margin-top:15px ;
+    float: right;
+    background-color: wheat;
+}
+header ul {
+    height: 35px;
+    background-color: darkorange;
+    list-style-type: none;
+}
+header li {
+    float: left;
+    margin-left: 45px;
+    margin-top:6px ;
+}
+li a {
+    color: white;
+}
+.content {
+    margin-top: 20px;
+    border: 1px yellowgreen solid;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.book {
+    margin-top: 50px;
+    overflow: hidden;
+}
+.book1 {
+    float: left;
+    width: 460px;
+    position: relative;
+}
+.book1 img{
+    float: left;
+}
+.book1 .jieshao {
+    width: 200px;
+    float: left;
+}
+.book1:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.book2 {
+    width: 460px;
+    height: 260px;
+    display: block;
+    position: relative;
+}
+.book2-1 {
+    float: left;
+    position: absolute;
+    right: -400px;
+}
+.book2-1 img {
+    float: left;
+}
+.book2-1 .jieshao {
+    width: 200px;
+    float: left;
+}
+.book2:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.book2-2 {
+    display: inline-block;
+    position: absolute;
+    bottom: -110px;
+    left: -0px;
+}
+.book2-2 img {
+    float: left;
+}
+.book2-2 .jieshao {
+    float: left;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+.No1 {
+    position: absolute;
+    left: 20px;
+}
+.No2 {
+    position: absolute;
+}
+.No3 {
+    position: absolute;
+}
+.count {
+    position: absolute;
+    top: 10px;
+}
+.content {
+    position: relative;
+}
+.bang {
+    position: absolute;
+    left: -13px;
+}

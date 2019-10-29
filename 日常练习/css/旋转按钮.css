@@ -1,0 +1,18 @@
+ul li {
+    list-style-type: none;
+    float: left;
+    margin: 0 10px;
+}
+body:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+li a {
+    display: block;
+}
+li a:hover {
+    transform: rotate(360deg) scale(1.2);
+    /* transition添加过渡动画 参数为：css属性名 过渡所需毫秒*/
+    transition: transform 300ms;
+}

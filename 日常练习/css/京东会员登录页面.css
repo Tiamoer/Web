@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+}
+header {
+    margin: 10px 0px;
+    /* border-bottom: 1px #c4c4c4 solid; */
+}
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+.top {
+    width: 960px;
+    margin: 0 auto;
+}
+.top img {
+    float: left;
+}
+.title {
+    float: left;
+}
+.title p {
+    margin-left: 20px;
+    padding-top: 10px ;
+    color: darkgrey;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+article {
+    width: 1920px;
+    height:475px ;
+    background-color: #e93854;
+}
+form {
+    margin: 10px;
+    clear: left;
+}
+.login-form {
+    margin-top: 90px;
+    margin-right: 0px;
+    float: right;
+    background-color: white;
+    padding: 20px;
+}
+.login-form h2{
+    float: left;
+}
+/* .login-form a{
+    text-decoration: none;
+    color: darkgray;
+    float: right;
+}
+.login-box>img {
+    float: right;
+} */
+.zc {
+    float: right;
+}
+.login-form a {
+    float: right;
+    color: #e93854;
+}
+.login-box {
+    width: 990px;
+    height: 475px;
+    background: url(../img/京东会员登录页面/背景.png);
+    margin: 0 auto;
+}
+input {
+    padding-left: 38px;
+}
+input[type="text"] {
+    background: url(../img/京东会员登录页面/账户.jpg) no-repeat;
+    height: 38px;
+    margin: 10px 0;
+    width:200px ;
+}
+input[type="password"] {
+    background: url(../img/京东会员登录页面/密码.jpg) no-repeat;
+    height: 38px;
+    margin: 10px 0;
+    width:200px ;
+}
+input[type="button"] {
+    padding: 0;
+    width: 242px;
+    height: 38px;
+    background-color: firebrick;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+footer {
+    width: 990px;
+    margin: 0 auto;
+}
+.footer-box {
+    margin-top:50px;
+    text-align: center;
+    color: darkgray;
+}
+.footer-box p {
+    line-height: 40px;
+}
+a:hover {
+    text-decoration: underline;
+    color: darkolivegreen;
+}

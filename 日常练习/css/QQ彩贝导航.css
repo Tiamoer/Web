@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    color: lightblue;
+}
+ul li {
+    position: relative;
+    margin:0 10px;
+    list-style-type: none;
+    display: inline-block;
+}
+ul {
+    text-align: center;
+    background-color: rgb(224, 224, 224);
+    padding: 20px;
+}
+#zhuan {
+    width: 38px;
+    height: 32px;
+    background:url(../img/QQ彩贝导航/header_03.png) no-repeat;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    
+}
+#hua {
+    width: 37px;
+    height: 23px;
+    background: url(../img/QQ彩贝导航/header_07.png) no-repeat;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+#zhuan:hover {
+    width: 66px;
+    background: url(../img/QQ彩贝导航/header_05.png) no-repeat;
+    animation: zhuan 2s 1;
+}
+@keyframes zhuan {
+    0% {
+        width: 38px;
+    }
+    100% {
+        width: 66px;
+    }
+}
+#hua:hover {
+    width: 65px;
+    background: url(../img/QQ彩贝导航/header_09.png) no-repeat;
+    animation: hua 2s 1;
+}
+@keyframes hua {
+    0% {
+        width: 37px;
+    }
+    100% {
+        width: 65px;
+    }
+}
+#lun:hover {
+    transform: rotate(360deg);
+    transition: transform 1000ms;
+}

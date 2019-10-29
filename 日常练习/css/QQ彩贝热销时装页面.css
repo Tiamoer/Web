@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+}
+ p {
+    font-size: 16px;
+    line-height: 40px;
+ }
+.bigbox {
+    margin-top: 100px;
+    width: 100%;
+    border: 2px darkgray solid;
+    box-sizing: border-box;
+}
+.bigbox::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.left-box {
+    width: 40%;
+    float: left;
+    padding: 30px;
+    /* border: 2px darkgray solid; */
+    box-sizing: border-box;
+}
+.left-box img {
+    margin: 40px 0px;
+}
+.right-box {
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+}
+ul li {
+    list-style: none;
+    float: left;
+}
+li {
+    width: 50%;
+    box-sizing: border-box;
+}

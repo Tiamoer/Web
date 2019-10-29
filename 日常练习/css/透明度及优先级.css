@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.tip {
+    margin: 0 auto;
+    padding: 5px;
+    width: 886px;
+    border: 1px solid black;
+}
+ul,li {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 25px;
+}
+ul {
+    position: relative;
+}
+.tip-text,.tip-bg {
+    position: absolute;
+    text-align: center;
+    height: 35px;
+    width: 886px;
+    top: 450px;
+    color: white;
+}
+.tip-text {
+    z-index: 1;
+    font-size: 16px;
+}
+.tip-bg {
+    background-color: black;
+    opacity: 0.4;
+}

@@ -1,0 +1,49 @@
+ul li{
+    list-style: none;
+    float: left;
+    width: 80px;
+    background-color: coral;
+    font-size: 16px;
+    line-height: 40px;
+    margin-left: 3px;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    height: 40px;
+}
+li:hover {
+    background-color: brown;
+    /* 平移 参数为X,Y*/
+    /* transform: translate(30px,30px); */
+    transform: translateX(30px);
+    transform: translateY(30px);
+    /* 缩放 参数为缩放的倍数*/
+    /* transform: scale(0.5); */
+    /* 代表x轴shangd */
+    transform: scaleX(0.5);
+    /* 旋转 deg表示是度数的单位 */
+    transform: rotate(30deg);
+    /* 倾斜 */
+    transform: skew(30deg,30deg);
+    /* 动画混合着用 */
+    transform: translate(30px,0px) rotate(30deg);
+}
+
+/* 关键帧动画 */
+.gjz {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    /* 调用动画 */
+    animation: Run 2s inherit;
+}
+@keyframes Run {
+    0%{width: 0;height: 0;}
+    50%{width: 100px;height: 100px;}
+    100%{width: 200px;height: 200px;}
+}

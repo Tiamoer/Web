@@ -1,0 +1,32 @@
+body {
+    width: 300px;
+}
+.top {
+    background: linear-gradient(to top,rgb(127, 196, 206),rgb(81, 192, 243));
+}
+.top p {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    line-height: 35px;
+}
+ul {
+    list-style-type: none;
+}
+li p{
+    font: 14px;
+    line-height: 30px;
+    font-weight: bold;
+    background: linear-gradient(to top,rgb(135, 222, 230),rgb(17, 166, 224));
+}
+li a {
+    font-size: 12px;
+    line-height: 26px;
+    margin: auto 10px;
+    text-decoration: none;
+    color: dimgray;
+}
+li a:hover {
+    color: firebrick;
+    text-decoration: underline;
+}

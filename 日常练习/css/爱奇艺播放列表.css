@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 1000px;
+    margin: 0 auto;
+}
+.box a {
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+}
+.box .p1 {
+    color: brown;
+}
+.box .p2 {
+    color: cornflowerblue;
+}
+h1 {
+    font-size: 18px;
+    line-height: 40px;
+}
+ul,li{
+    list-style-type: none;
+    display: inline-block;
+}
+li {
+    padding: 10px;
+    margin-right: 5px;
+}
+li:hover {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #c0c0c0;
+}
+.box img {
+    border-radius: 20px;
+}
